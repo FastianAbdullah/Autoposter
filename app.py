@@ -5,9 +5,9 @@ import requests
 
 APP_ID = st.secrets["facebook"]["app_id"]
 APP_SECRET = st.secrets["facebook"]["app_secret"]
-REDIRECT_URI = 'https://localhost:8501/' 
-SSL_CERT_PATH = 'cert.pem'
-SSL_KEY_PATH = 'key.pem'
+REDIRECT_URI = 'https://autoposter.streamlit.app/'
+# SSL_CERT_PATH = 'cert.pem'
+# SSL_KEY_PATH = 'key.pem'
 
 def login():
     permissions = "pages_read_engagement,pages_manage_posts,instagram_basic,instagram_content_publish"
